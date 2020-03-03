@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    font-weight: normal;
+}
+body {
+   background-color: #fff;
+   color: #660000;
+   
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 4px solid #320c14;
+    background-color: #660000;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.75;
+}
+.header span{
+    font-weight: 400;
+    font-size: .8rem;
+    line-height: 1.75;
+}
+.title{
+    padding-left: 10px;
+}
+.header h2{
+    margin-top: -35px;
+}
+.logo{
+    color: #fff;
+}
+
+.links ul{
+   margin-left: 500px;
+    margin-top: 38px;
+    list-style: none;
+}
+.links li{
+    display: inline;
+}
+.link{
+    text-decoration: none; 
+    margin-left: 20px;
+    color: #fff;
+}
+.guide_tile{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: #660000;
+}
+.guide_tile:hover{
+    color: #d6d6d6;
+}
+.guides{
+    text-transform: uppercase;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.75;
+}
+.about{
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 1.75;
+}
